@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+     android:background="@drawable/lbg"
+    android:layout_height="match_parent">
+
+          <ImageView
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/logo"
+            android:id="@+id/logo"
+            android:layout_gravity="center"
+            android:layout_height="150dp" />
+
+
+
+    <Button
+        android:layout_width="40dp"
+        android:background="@drawable/voice"
+        android:gravity="left"
+        android:layout_alignParentBottom = "true"
+        android:layout_marginTop="170dp"
+        android:id="@+id/music"
+        android:layout_marginLeft="20dp"
+        android:layout_height="40dp" />
+
+
+    <TextView
+        android:layout_width="60dp"
+        android:text="Voice"
+        android:layout_marginTop="-20dp"
+        android:textSize="17dp"
+        android:layout_marginLeft="70dp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_height="wrap_content" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="-220dp"
+        android:layout_marginLeft="160dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="220dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/logo"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="20dp"
+            android:id="@+id/age0"
+            android:layout_gravity="center"
+            android:src="@drawable/age0"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_width="220dp"
+            android:id="@+id/age2"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="0dp"
+            android:src="@drawable/age2"
+            android:layout_height="wrap_content" />
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginBottom="20dp"
+        android:text="Music"
+        android:layout_alignParentBottom = "true"
+        android:textSize="17dp"
+        android:layout_marginLeft="60dp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_height="wrap_content" />
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
+
+

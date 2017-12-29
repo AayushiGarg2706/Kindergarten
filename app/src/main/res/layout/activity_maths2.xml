@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_maths2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mathbg"
+    tools:context="com.logischtech.kindergarten.Maths2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:background="#F7A401"
+        android:layout_height="70dp" />
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_marginTop="-10dp"
+        android:layout_marginLeft="130dp"
+        android:src="@drawable/logo"
+        android:id="@+id/logo"
+        android:layout_gravity="center"
+        android:layout_height="80dp" />
+
+
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/math21"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/math21"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/math22"
+        android:gravity="center"
+        android:id="@+id/math22"
+        android:layout_marginLeft="135dp"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/math23"
+        android:gravity="center"
+        android:layout_marginLeft="250dp"
+        android:id="@+id/math23"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_marginTop="-10dp"
+        android:src="@drawable/math4"
+        android:layout_gravity="left"
+        android:layout_marginLeft="20dp"
+        android:gravity="left"
+        android:layout_below="@+id/math21"
+        android:id="@+id/hindiquiz"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_marginTop="-10dp"
+        android:src="@drawable/math25"
+        android:layout_gravity="left"
+        android:layout_marginLeft="135dp"
+        android:gravity="left"
+        android:layout_below="@+id/math22"
+        android:id="@+id/mathdots"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_marginTop="-10dp"
+        android:src="@drawable/math26"
+        android:layout_gravity="left"
+        android:layout_marginLeft="250dp"
+        android:gravity="left"
+        android:layout_below="@+id/math23"
+        android:id="@+id/mathsmissing"
+        android:layout_height="wrap_content" />
+
+
+
+
+
+
+    <Button
+        android:layout_width="40dp"
+        android:background="@drawable/voice"
+        android:layout_marginBottom="45dp"
+        android:gravity="left"
+        android:id="@+id/voice"
+        android:layout_alignParentBottom = "true"
+        android:layout_marginLeft="20dp"
+        android:layout_height="40dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginBottom="55dp"
+        android:text="Voice"
+        android:textSize="17dp"
+        android:layout_alignParentBottom = "true"
+
+        android:layout_marginLeft="60dp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:layout_width="40dp"
+        android:background="@drawable/music"
+        android:layout_marginBottom="10dp"
+        android:gravity="left"
+        android:layout_alignParentBottom = "true"
+
+        android:id="@+id/music"
+        android:layout_marginLeft="20dp"
+        android:layout_height="40dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginBottom="20dp"
+        android:text="Music"
+        android:layout_alignParentBottom = "true"
+        android:textSize="17dp"
+        android:layout_marginLeft="60dp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_height="wrap_content" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
